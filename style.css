@@ -1,0 +1,105 @@
+@font-face {font-family:'Rage';src: url('resources/RAGE.ttf');}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    margin: 0px;
+    text-align: center;
+}
+.menu_h1 {
+    margin: auto;
+    text-align: center;
+    font-family: "Rage";
+    font-size: 6rem;
+    color: white;
+}
+.menu_h2 {
+    text-align: center;
+    color: white;
+}
+.header {
+    padding: 2%;
+    box-shadow: 5px 5px 8px 1px #c0c0c0;
+    background-color: black;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: "Roboto";
+}
+.div_share{
+    background-color: black;
+}
+.share {
+    border-radius: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+.img_share {
+    height: 8vh;
+    transition: 1s;
+}
+.share:hover {
+    border-radius: 6px;
+    display: inline-block;
+    
+}
+.img_share:hover {
+    height: 12vh;
+}
+main {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: "Roboto";
+}
+.img1 {
+    width: 70%;
+    margin: auto;
+}
+.we1 {
+    display: inline-block;
+    margin:0.6vw;
+    height: 16vw;
+    width:32vw;
+    background-size: cover;
+    background-image: url( "https://static.wixstatic.com/media/5e43d4_2998142e94494c06a5a234ae5539c274~mv2.jpg/v1/fill/w_729,h_487,al_c,q_90,usm_0.66_1.00_0.01/5e43d4_2998142e94494c06a5a234ae5539c274~mv2.webp" )
+}
+.we2 {
+    display: inline-block;
+    margin:0.6vw;
+    height: 16vw;
+    width: 32vw;
+    background-size: cover;
+    background-image: url( "https://static.wixstatic.com/media/5e43d4_4de2448102ff413d9590c364919ee5dc~mv2.jpg/v1/fill/w_640,h_427,al_c,q_90/5e43d4_4de2448102ff413d9590c364919ee5dc~mv2.webp" )
+}
+.we3 {
+    display: inline-block;
+    margin:0.6vw;
+    height: 16vw;
+    width: 32vw;
+    background-size: cover;
+    background-image: url( "https://static.wixstatic.com/media/5e43d4_29930af0337e492caa4fcdf9d61630e1~mv2.jpg/v1/fill/w_465,h_487,al_c,q_90,usm_0.66_1.00_0.01/5e43d4_29930af0337e492caa4fcdf9d61630e1~mv2.webp" )
+}
+.we4 {
+    display: inline-block;
+    margin:0.6vw;
+    height: 16vw;
+    width: 32vw;
+    background-size: cover;
+    background-image: url( "https://static.wixstatic.com/media/5e43d4_1999693238d14725bcff0cf7286be6ca~mv2.jpg/v1/fill/w_612,h_487,al_c,q_90,usm_0.66_1.00_0.01/5e43d4_1999693238d14725bcff0cf7286be6ca~mv2.webp" )
+}
+.div_in_us {
+    background-color: rgba(255, 255, 255, 0.33);
+    padding: 1px;
+}
+article {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.hww {
+    height: 20vh;
+    width: 10vw;
+    display: inline-block;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
